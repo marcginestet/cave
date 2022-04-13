@@ -1,22 +1,26 @@
 /* style.css*/
 @import url("components/avatar.css");
+@import url("components/button.css");
 
 /* Fonts and Colors*/
+.header {
+}
+
 body{
 	background: slategrey;
 	color: lightgrey;
-	font-size:  14px;
+	font-size:  18px;
     font-family: 'Open Sans', sans-serif;
 }
 h1{
-	color:  whitesmoke;
-	font-weight:  lighter;
-	font-size: 36px;
+	color: white;
+	font-size: 72px;
+	text-shadow: 1px 1px 5px black;
 }
 h2{
 	color: lightgrey;
 	font-weight: lighter;
-	font-size: 24px;
+	font-size: 36px;
 }
 a{
 	color: lightgrey;
@@ -28,26 +32,15 @@ a:hover{
 
 /* Custom Design */
 #banner{
+	font-size:  18px;
 	text-align: center;
 	background-image: url("pexels-adrien-olichon-2931251.jpg");
 	background-size: cover;
-	margin: 50px;
+	margin: 30px;
     border-radius: 20px;
     box-shadow: 10px 10px 100px rgb(35, 44, 53);
-
     padding: 150px;
-	color: white;
-	text-shadow: 1px 1px 5px black;
-}
-#banner h1 {
-	color: white;
-	font-size: 52px;
-}
-#banner p {
-	color: white;
-	opacity: 0.8;
-	font-size: 21px;
-	font-weight: lighter;
+    
 }
 
 #footer{
@@ -57,7 +50,6 @@ a:hover{
 }
 
 .card{
-	padding: 50px;
+	padding: 30px;
 	font-weight: lighter;
 }
-
