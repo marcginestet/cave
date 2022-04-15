@@ -1,34 +1,32 @@
-.btn-signup {
-	background-color: #7D2342;
-	border: 2px solid #808080;
-	color: lightgrey;
-	border-radius: 50px;
-	padding: 10px 15px;
-	opacity: 0.9;
-	position: absolute;
-	top: 30px;
-	right: 30px;
+#ctrl_btn {
+	padding: 0px 30px;
 }
-.btn-signup:hover {
-	opacity: 1;	
-	background-color: #EC427C;
-	text-decoration: none;
-	color: white;
-	border: 2px solid white;
 
+.btn-signup {
+	color: white;
+	border-radius:  5px;
+	padding: 10px 15px;
+	background-color: #D4312D;
+	position: relative;
+	top: 40px;
+	}
+.btn-signup:hover {
+	text-decoration: none;
+	color: #D4312D;
+	background-color: white;
 }
 
 .btn-signin {
 	color: #B0B0B0;
 	background-color: #303030;
 	border: 2px solid #808080;
-	border-radius:  50px;
+	border-radius:  5px;
 	padding: 10px 15px;
 	font-weight: lighter;
 	opacity: 0.9;
 	position: absolute;
-	top: 30px;
-	right: 140px;
+	top: 0px;
+	right: 30px;
 }
 .btn-signin:hover {
 	opacity: 1;
